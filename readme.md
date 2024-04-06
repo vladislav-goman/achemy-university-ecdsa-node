@@ -1,12 +1,12 @@
 # ECDSA Node
 
 This project was created in scope of Blockchain Cryptography course on [Alchemy University](https://university.alchemy.com/).
-ECDSA Node is a simple blockchain project that aims to provide a hands-on understanding of how digital signatures and public key cryptography work.
+ECDSA Node is a simple project that aims to provide a hands-on understanding of how digital signatures and public key cryptography work.
 The project consists of a React front-end that communicates with a centralized server responsible for transferring balances between accounts.
 
 ## Goal
 
-The primary goal of ECDSA Node is to implement a use case of Elliptic Curve Digital Signature Algorithm (ECDSA) to learn how to ensure secure transactions within the blockchain network.
+The primary goal of ECDSA Node is to implement a use case of the Elliptic Curve Digital Signature Algorithm (ECDSA) to learn how to ensure secure transactions within the blockchain network.
 By incorporating public key cryptography, only users with the appropriate private key can create valid signatures to authorize fund transfers between accounts. This enhances the security and integrity of transactions within the system.
 
 ## Features
@@ -31,7 +31,7 @@ To run the project locally, follow these steps:
 The client folder contains a [react app](https://reactjs.org/) using [vite](https://vitejs.dev/). To get started, follow these steps:
 
 1. Open up a terminal in the `/client` folder
-2. Run `npm install` to install all the depedencies
+2. Run `npm install` to install all the dependencies
 3. Run `npm run dev` to start the application
 4. Now you should be able to visit the app at [http://localhost:5173/](http://localhost:5173/)
 
@@ -40,7 +40,7 @@ The client folder contains a [react app](https://reactjs.org/) using [vite](http
 The server folder contains a node.js server using [express](https://expressjs.com/). To run the server, follow these steps:
 
 1. Open a terminal within the `/server` folder
-2. Run `npm install` to install all the depedencies
+2. Run `npm install` to install all the dependencies
 3. Run `node index` to start the server
 
 The application should connect to the default server port (3042) automatically!
